@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //Redux
 import { connect } from "react-redux";
 //Components
+import NavBar from "./NavBar";
 //
 //Sass
 import "../styles/main.scss";
@@ -11,6 +12,7 @@ import "../styles/main.scss";
 const Home = () => {
   return (
     <div>
+      <NavBar active={"home"} />
       <h1>Home OWO</h1>
 
       <Link to="/quiz">
