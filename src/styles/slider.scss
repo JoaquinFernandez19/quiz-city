@@ -69,9 +69,13 @@
   }
   p {
     z-index: 2;
-    background-color: rgb(247, 74, 74);
+    background-color: #f74a4a;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 //Router
-import { Link } from "react-router-dom";
 //Redux
 import { connect } from "react-redux";
 //Components
@@ -24,6 +23,7 @@ const Home = () => {
 const mapStateToProps = (state) => {
   console.log(state);
   return {
+    quiz: state.quiz,
     placeholder: state.placeholder,
   };
 };
