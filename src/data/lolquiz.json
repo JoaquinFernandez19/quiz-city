@@ -1,0 +1,20 @@
+[
+  {
+    "q1": "How many champs League has?",
+    "anserwsArray1": [
+      { "answer": "189", "correct": false },
+      { "answer": "121", "correct": false },
+      { "answer": "148", "correct": true },
+      { "answer": "152", "correct": false }
+    ]
+  },
+  {
+    "q2": "How much gold does Rabaddon cost?",
+    "anserwsArray2": [
+      { "answer": "3600", "correct": true },
+      { "answer": "3000", "correct": false },
+      { "answer": "4000", "correct": false },
+      { "answer": "3200", "correct": false }
+    ]
+  }
+]
