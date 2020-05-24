@@ -16,5 +16,23 @@
       { "answer": "4000", "correct": false },
       { "answer": "3200", "correct": false }
     ]
+  },
+  {
+    "q3": "Wich ultimate Yasuo wall can't block",
+    "anserwsArray3": [
+      { "answer": "Ashe", "correct": false },
+      { "answer": "Katarina", "correct": false },
+      { "answer": "Irelia", "correct": false },
+      { "answer": "Velkoz", "correct": true }
+    ]
+  },
+  {
+    "q4": "How much gold does Rabaddon cost?",
+    "anserwsArray4": [
+      { "answer": "3600", "correct": true },
+      { "answer": "3000", "correct": false },
+      { "answer": "4000", "correct": false },
+      { "answer": "3200", "correct": false }
+    ]
   }
 ]

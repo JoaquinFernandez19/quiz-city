@@ -6,3 +6,8 @@ export const selectQuiz = (quiz) => {
     },
   };
 };
+export const nextQuestion = () => {
+  return {
+    type: "NEXT_QUESTION",
+  };
+};

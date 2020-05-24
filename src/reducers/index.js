@@ -11,8 +11,15 @@ export const quizReducer = (quiz = "none", action) => {
   return quiz;
 };
 //
+export const currentQuestionReducer = (question = 1, action) => {
+  if (action.type === "NEXT_QUESTION") {
+    return (question = question + 1);
+  }
+  return question;
+};
 
 export default combineReducers({
   placeholder: placeholderReducer,
   quiz: quizReducer,
+  currentQuestion: currentQuestionReducer,
 });
