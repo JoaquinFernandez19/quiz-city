@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./NavBar";
 import "../styles/info.scss";
+import { connect } from "react-redux";
+import { resetEverything } from "../actions";
 
-const Info = () => {
+const Info = (props) => {
+  useEffect(() => {
+    props.resetEverything();
+  }, []);
+
   return (
     <div>
       <NavBar active={"info"} />
@@ -18,4 +24,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default connect(null, { resetEverything })(Info);

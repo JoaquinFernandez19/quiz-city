@@ -1,20 +1,24 @@
-import React from "react";
+import React, { useEffect } from 'react';
 //Router
 //Redux
-import { connect } from "react-redux";
+import { resetEverything } from '../actions';
+import { connect } from 'react-redux';
 //Components
-import NavBar from "./NavBar";
-import Slider from "./slider/Slider";
+import NavBar from './NavBar';
+import Slider from './slider/Slider';
 
 //
 //Sass
-import "../styles/main.scss";
+import '../styles/main.scss';
 
-const Home = () => {
+const Home = (props) => {
+  useEffect(() => {
+    props.resetEverything();
+  }, []);
+
   return (
     <div className="home">
-      <NavBar active={"home"} />
-
+      <NavBar active={'home'} />
       <Slider />
     </div>
   );
@@ -24,8 +28,8 @@ const mapStateToProps = (state) => {
   console.log(state);
   return {
     quiz: state.quiz,
-    placeholder: state.placeholder,
+    quizState: state.quiz,
   };
 };
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps, { resetEverything })(Home);

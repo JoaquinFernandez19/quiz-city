@@ -18,7 +18,7 @@
     ]
   },
   {
-    "q3": "Wich ultimate Yasuo wall can't block",
+    "q3": "Wich ultimate Yasuo wall can't block?",
     "anserwsArray3": [
       { "answer": "Ashe", "correct": false },
       { "answer": "Katarina", "correct": false },
@@ -27,12 +27,21 @@
     ]
   },
   {
-    "q4": "How much gold does Rabaddon cost?",
+    "q4": "Wich champ is not from the void?",
     "anserwsArray4": [
-      { "answer": "3600", "correct": true },
-      { "answer": "3000", "correct": false },
-      { "answer": "4000", "correct": false },
-      { "answer": "3200", "correct": false }
+      { "answer": "Kha'Zix", "correct": false },
+      { "answer": "Malzahar", "correct": false },
+      { "answer": "Kog'Maw", "correct": false },
+      { "answer": "Nocturne", "correct": true }
+    ]
+  },
+  {
+    "q5": "Wich of the following is not a game map?",
+    "anserwsArray5": [
+      { "answer": "Twisted Treeline", "correct": false },
+      { "answer": "Cosmic Catacombs", "correct": true },
+      { "answer": "Howling Abyss", "correct": false },
+      { "answer": "Substructure 43", "correct": false }
     ]
   }
 ]
